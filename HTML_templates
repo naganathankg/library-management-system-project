@@ -1,0 +1,1345 @@
+#adminpages.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>hello i am admin</h3>
+<a href="/viewstudents">view student details</a>
+<a href="/viewteachers">view teachers details</a>
+</body>
+</html>
+
+#book1page.html
+
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="{{url_for('static',filename='css/style.css')}}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<style type="text/css">
+
+
+*{
+ margin: 0px;
+ padding: 0px;
+}
+body{
+ font-family: arial;
+}
+.main{
+
+ margin: 2%;
+}
+
+.card{
+     width: 20%;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px;
+     margin: 2%;
+     background-color:#EB1D36;
+    }
+
+.image img{
+  width: 100%;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+
+
+
+ }
+
+
+.title{
+
+  text-align: center;
+  padding: 10px;
+
+ }
+
+h1{
+  font-size: 20px;
+ }
+
+.des{
+  padding: 3px;
+  text-align: center;
+   color:#E8F9FD;
+  padding-top: 10px;
+        border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+input{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding:10px;
+}
+input:hover{
+  background-color: black;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+
+</style>
+<body class="bg-nav">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<div class="main">
+
+ <!--cards -->
+
+<div class="card">
+<form action="https://www.unf.edu/~wkloster/2220/ppts/cprogramming_tutorial.pdf">
+<div class="image">
+   <img  src="{{url_for('static',filename='cbook2.jpg')}}">
+</div>
+<div class="title">
+ <h1>
+C PROGRAMMING TUTORIAL</h1>
+</div>
+<div class="des">
+    <p>TYPE:BOOK(PDF)</p>
+    <p>EDITION:Fifth Edition </p>
+    <p>AUHTOR:tutorialspoint.com</p>
+<input type="submit" value="READ"></input>
+</div>
+</div>
+</form>
+<!--cards -->
+
+
+<div class="card">
+<form action="https://www-personal.acfr.usyd.edu.au/tbailey/ctext/ctext.pdf">
+<div class="image">
+   <img src="{{url_for('static',filename='cbook1.webp')}}">
+</div>
+<div class="title">
+ <h1>
+The C Programming Language</h1>
+</div>
+<div class="des">
+    <p>TYPE:BOOK(PDF)</p>
+    <p>EDITION:Fifth Edition </p>
+    <p>AUTHOR:Tim Bailey</p>
+<input type="submit" value="READ"></input>
+</div>
+</div>
+</form>
+<!--cards -->
+
+
+<div class="card">
+<form action="http://pdvpmtasgaon.edu.in/uploads/dptcomputer/Let%20us%20c%20-%20yashwantkanetkar.pdf">
+<div class="image">
+   <img src="{{url_for('static',filename='cbook2.jpg')}}">
+</div>
+<div class="title">
+ <h1>
+The C Programming Language</h1>
+</div>
+<div class="des">
+    <p>TYPE:BOOK(PDF)</p>
+    <p>EDITION:Fifth Edition </p>
+    <p>AUTHOR:Yashavant P. Kanetkar</p>
+<input type="submit" value="READ"></input>
+</div>
+</div>
+</form>
+<!--cards -->
+<div class="card">
+<form action="https://www-personal.acfr.usyd.edu.au/tbailey/ctext/ctext.pdf">
+<div class="image">
+   <img src="{{url_for('static',filename='cbook1.webp')}}">
+</div>
+<div class="title">
+ <h1>
+The C Programming Language</h1>
+</div>
+<div class="des">
+    <p>TYPE:BOOK(PDF)</p>
+    <p>EDITION:Fifth Edition </p>
+    <p>AUTHOR:Tim Bailey</p>
+<input type="submit" value="READ"></input>
+</div>
+</div>
+</form>
+
+<div class="card">
+<form action="https://www.youtube.com/watch?v=EjavYOFoJJ0&list=PLdo5W4Nhv31a8UcMN9-35ghv8qyFWD9_S">
+<div class="image">
+   <img src="{{url_for('static',filename='youimage.png')}}">
+</div>
+<div class="title">
+ <h1>
+C PROGRAMMING</h1>
+</div>
+<div class="des">
+    <p>TYPE:video</p>
+    <p>channel name:Jenny's Lectures CS IT</p>
+    <p>Language:English</p>
+<input type="submit" value="READ"></input>
+</div>
+</div>
+</form>
+<!--cards -->
+
+
+<div class="card">
+<form action="https://www.youtube.com/watch?v=_MF8L7ZxwRE">
+<div class="image">
+   <img src="{{url_for('static',filename='youimage.png')}}">
+</div>
+<div class="title">
+ <h1>
+C PROGRAMMING</h1>
+</div>
+<div class="des">
+    <p>TYPE:video</p>
+    <p>channel name:ProgrammingWithHarry</p>
+    <p>Language:English</p>
+<input type="submit" value="READ"></input>
+</div>
+</div>
+</form>
+<!--cards -->
+
+<div class="card">
+<form action="https://www.youtube.com/watch?v=5Bn8h6Id14U">
+<div class="image">
+   <img src="{{url_for('static',filename='youimage.png')}}">
+</div>
+<div class="title">
+ <h1>
+C PROGRAMMING</h1>
+</div>
+<div class="des">
+    <p>TYPE:video</p>
+    <p>channel name:Tutor Joe's Stanley</p>
+    <p>Language:Tamil</p>
+<input type="submit" value="READ"></input>
+</div>
+</div>
+</form>
+<!--cards -->
+
+
+<!--cards -->
+
+
+<div class="card">
+<form action="https://www.youtube.com/watch?v=JAy56OH58Y4">
+<div class="image">
+   <img src="{{url_for('static',filename='youimage.png')}}">
+</div>
+<div class="title">
+ <h1>
+C PROGRAMMING</h1>
+</div>
+<div class="des">
+    <p>TYPE:video</p>
+    <p>channel name:Logic First Tamil</p>
+    <p>Language:Tamil</p>
+<input type="submit" value="READ"></input>
+</div>
+</div>
+</form>
+<!--cards -->
+</div>
+</body>
+</html>
+
+#book2page.html
+
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="{{url_for('static',filename='css/style.css')}}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<style type="text/css">
+
+
+*{
+ margin: 0px;
+ padding: 0px;
+}
+body{
+ font-family: arial;
+}
+.main{
+
+ margin: 2%;
+}
+
+.card{
+     width: 20%;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px;
+     margin: 2%;
+     background-color:#EB1D36;
+    }
+
+.image img{
+  width: 100%;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+
+
+
+ }
+
+
+.title{
+
+  text-align: center;
+  padding: 10px;
+
+ }
+
+h1{
+  font-size: 20px;
+ }
+
+.des{
+  padding: 3px;
+  text-align: center;
+   color:#E8F9FD;
+  padding-top: 10px;
+        border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+input{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding:10px;
+}
+input:hover{
+  background-color: black;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+
+</style>
+<body class="bg-nav">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<div class="main">
+
+ <!--cards -->
+
+<div class="card">
+<form action="https://www.tutorialspoint.com/cplusplus/cpp_tutorial.pdf">
+<div class="image">
+   <img  src="{{url_for('static',filename='cplus1.jpg')}}">
+</div>
+<div class="title">
+ <h1>
+C++ PROGRAMMING TUTORIAL</h1>
+</div>
+<div class="des">
+    <p>TYPE:BOOK(PDF)</p>
+    <p>EDITION:Fifth Edition </p>
+    <p>AUHTOR:tutorialspoint.com</p>
+<input type="submit" value="READ"></input>
+</div>
+</div>
+</form>
+<!--cards -->
+
+
+<div class="card">
+<form action="https://faculty.ksu.edu.sa/sites/default/files/ObjectOrientedProgramminginC4thEdition.pdf">
+<div class="image">
+   <img src="{{url_for('static',filename='cplus1.jpg')}}">
+</div>
+<div class="title">
+ <h1>
+The C++ Programming Language</h1>
+</div>
+<div class="des">
+    <p>TYPE:BOOK(PDF)</p>
+    <p>EDITION:Fourth Edition </p>
+    <p>AUTHOR:Robert Lafore</p>
+<input type="submit" value="READ"></input>
+</div>
+</div>
+</form>
+<!--cards -->
+
+
+<div class="card">
+<form action="https://www.cet.edu.in/noticefiles/285_OOPS%20lecture%20notes%20Complete.pdf">
+<div class="image">
+   <img src="{{url_for('static',filename='cplus1.jpg')}}">
+</div>
+<div class="title">
+ <h1>Oops in C++</h1>
+</div>
+<div class="des">
+    <p>TYPE:BOOK(PDF)</p>
+    <p>EDITION:Fifth Edition </p>
+    <p>AUTHOR:Dr. Subasish Mohapatra</p>
+<input type="submit" value="READ"></input>
+</div>
+</div>
+</form>
+<!--cards -->
+<div class="card">
+<form action="https://oms.bdu.ac.in/ec/admin/contents/73_16SCCCS2_2020051809542977.pdf">
+<div class="image">
+   <img src="{{url_for('static',filename='cplus1.jpg')}}">
+</div>
+<div class="title">
+ <h1>Oops Programming in C++</h1>
+</div>
+<div class="des">
+    <p>TYPE:BOOK(PDF)</p>
+    <p>EDITION:Fifth Edition </p>
+    <p>AUTHOR:Balagursamy</p>
+<input type="submit" value="READ"></input>
+</div>
+</div>
+</form>
+
+<div class="card">
+<form action="https://www.youtube.com/watch?v=oOmbSpOzvYg&list=PLdo5W4Nhv31YU5Wx1dopka58teWP9aCee">
+<div class="image">
+   <img src="{{url_for('static',filename='youimage.png')}}">
+</div>
+<div class="title">
+ <h1>
+C++ PROGRAMMING</h1>
+</div>
+<div class="des">
+    <p>TYPE:video</p>
+    <p>channel name:Jenny's Lectures CS IT</p>
+    <p>Language:English</p>
+    <input type="submit" value="READ"></input>
+</div>
+</div>
+</form>
+<!--cards -->
+
+
+<div class="card">
+<form action="https://www.youtube.com/watch?v=E2pWDPZRAVA">
+<div class="image">
+   <img src="{{url_for('static',filename='youimage.png')}}">
+</div>
+<div class="title">
+ <h1>
+C++ PROGRAMMING</h1>
+</div>
+<div class="des">
+    <p>TYPE:video</p>
+    <p>channel name:Simplilearn Channel</p>
+    <p>Language:English</p>
+<input type="submit" value="READ"></input>
+</div>
+</div>
+</form>
+<!--cards -->
+
+<div class="card">
+<form action="https://www.youtube.com/watch?v=qH7m9ik3ILs">
+<div class="image">
+   <img src="{{url_for('static',filename='youimage.png')}}">
+</div>
+<div class="title">
+ <h1>
+C++ PROGRAMMING</h1>
+</div>
+<div class="des">
+    <p>TYPE:video</p>
+    <p>channel name:Tutor Joe's Stanley</p>
+    <p>Language:Tamil</p>
+<input type="submit" value="READ"></input>
+</div>
+</div>
+</form>
+<!--cards -->
+
+
+<!--cards -->
+
+
+<div class="card">
+<form action="https://www.youtube.com/watch?v=vLnPwxZdW4Y">
+<div class="image">
+   <img src="{{url_for('static',filename='youimage.png')}}">
+</div>
+<div class="title">
+ <h1>
+C++ PROGRAMMING</h1>
+</div>
+<div class="des">
+    <p>TYPE:video</p>
+    <p>channel name:freeCodeCamp.org</p>
+    <p>Language:English</p>
+<input type="submit" value="READ"></input>
+</div>
+</div>
+</form>
+<!--cards -->
+</div>
+</body>
+</html>
+
+#book3page.html
+
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="{{url_for('static',filename='css/style.css')}}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<style type="text/css">
+
+
+*{
+ margin: 0px;
+ padding: 0px;
+}
+body{
+ font-family: arial;
+}
+.main{
+
+ margin: 2%;
+}
+
+.card{
+     width: 20%;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px;
+     margin: 2%;
+     background-color:#EB1D36;
+    }
+
+.image img{
+  width: 100%;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+
+
+
+ }
+
+
+.title{
+
+  text-align: center;
+  padding: 10px;
+
+ }
+
+h1{
+  font-size: 20px;
+ }
+
+.des{
+  padding: 3px;
+  text-align: center;
+   color:#E8F9FD;
+  padding-top: 10px;
+        border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+input{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding:10px;
+}
+input:hover{
+  background-color: black;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+
+</style>
+<body class="bg-nav">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<div class="main">
+
+ <!--cards -->
+
+<div class="card">
+<form action="https://www.cs.cmu.edu/afs/cs.cmu.edu/user/gchen/www/download/java/LearnJava.pdf">
+<div class="image">
+   <img  src="{{url_for('static',filename='java1.jpg')}}">
+</div>
+<div class="title">
+ <h1>
+Introduction to Programming Using Java</h1>
+</div>
+<div class="des">
+    <p>TYPE:BOOK(PDF)</p>
+    <p>EDITION:Fifth Edition </p>
+    <p>AUHTOR:Laura Lemay</p>
+<input type="submit" value="READ"></input>
+</div>
+</div>
+</form>
+<!--cards -->
+
+
+<div class="card">
+<form action="https://www.iitk.ac.in/esc101/share/downloads/javanotes5.pdf">
+<div class="image">
+   <img src="{{url_for('static',filename='java1.jpg')}}">
+</div>
+<div class="title">
+ <h1>
+Introduction to Programming Using Java</h1>
+</div>
+<div class="des">
+    <p>TYPE:BOOK(PDF)</p>
+    <p>EDITION:Fifth Edition </p>
+    <p>AUTHOR:David J. Eck</p>
+<input type="submit" value="READ"></input>
+</div>
+</div>
+</form>
+<!--cards -->
+
+
+<div class="card">
+<form action="https://www.tutorialspoint.com/java/java_tutorial.pdf">
+<div class="image">
+   <img src="{{url_for('static',filename='java1.jpg')}}">
+</div>
+<div class="title">
+ <h1>
+     Introduction to Programming Using Java
+</h1>
+</div>
+<div class="des">
+    <p>TYPE:BOOK(PDF)</p>
+    <p>EDITION:Fifth Edition </p>
+    <p>AUTHOR:tutorialspoint.com</p>
+<input type="submit" value="READ"></input>
+</div>
+</div>
+</form>
+<!--cards -->
+<div class="card">
+<form action="https://www.rcsdk12.org/cms/lib/NY01001156/Centricity/Domain/4951/Head_First_Java_Second_Edition.pdf">
+<div class="image">
+   <img src="{{url_for('static',filename='java1.jpg')}}">
+</div>
+<div class="title">
+ <h1>
+     Introduction to Programming Using Java
+</h1>
+</div>
+<div class="des">
+    <p>TYPE:BOOK(PDF)</p>
+    <p>EDITION:Fifth Edition </p>
+    <p>AUTHOR:Kathy Sierra
+</p>
+<input type="submit" value="READ"></input>
+</div>
+</div>
+</form>
+
+<div class="card">
+<form action="https://www.youtube.com/watch?v=grEKMHGYyns">
+<div class="image">
+   <img src="{{url_for('static',filename='youimage.png')}}">
+</div>
+<div class="title">
+ <h1>
+JAVA PROGRAMMING</h1>
+</div>
+<div class="des">
+    <p>TYPE:video</p>
+    <p>channel name:freeCodeCamp.org</p>
+    <p>Language:English</p>
+<input type="submit" value="READ"></input>
+</div>
+</div>
+</form>
+<!--cards -->
+
+
+<div class="card">
+<form action="https://www.youtube.com/watch?v=BGTx91t8q50">
+<div class="image">
+   <img src="{{url_for('static',filename='youimage.png')}}">
+</div>
+<div class="title">
+ <h1>
+JAVA PROGRAMMING</h1>
+</div>
+<div class="des">
+    <p>TYPE:video</p>
+    <p>channel name:Telusko</p>
+    <p>Language:English</p>
+<input type="submit" value="READ"></input>
+</div>
+</div>
+</form>
+<!--cards -->
+
+<div class="card">
+<form action="https://www.youtube.com/watch?v=yC9ZwDfT3b0">
+<div class="image">
+   <img src="{{url_for('static',filename='youimage.png')}}">
+</div>
+<div class="title">
+ <h1>
+JAVA PROGRAMMING</h1>
+</div>
+<div class="des">
+    <p>TYPE:video</p>
+    <p>channel name:Tutor Joe's Stanley</p>
+    <p>Language:Tami</p>
+<input type="submit" value="READ"></input>
+</div>
+</div>
+</form>
+<!--cards -->
+
+
+<!--cards -->
+
+
+<div class="card">
+<form action="https://www.youtube.com/watch?v=qOWPCPCDRZs">
+<div class="image">
+   <img src="{{url_for('static',filename='youimage.png')}}">
+</div>
+<div class="title">
+ <h1>
+JAVA PROGRAMMING</h1>
+</div>
+<div class="des">
+    <p>TYPE:video</p>
+    <p>channel name:Logic First Tamil</p>
+    <p>Language:Tamil</p>
+<input type="submit" value="READ"></input>
+</div>
+</div>
+</form>
+
+<!--cards -->
+</div>
+</body>
+</html>
+
+#homepages.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="{{url_for('static',filename='css/style.css')}}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<style>
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+</style>
+
+</head>
+<body class="bg-nav">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <div class="bg-nav text-light d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+        <h5 class="my-0 mr-md-auto font-weight-normal">BESANT LIBRARY</h5>
+        <nav class="my-2 my-md-0 mr-md-3 ">
+            <a class="p-2 text-light" href="/login">LOGIN</a>
+            <a class="p-2 text-light" href="/register">REGISTER</a></nav>
+
+    </div>
+    <div class="about-section">
+        <h1>About Us Page</h1>
+        <p>Some text about who we are and what we do.</p>
+        <p>Resize the browser window to see that this page is responsive by the way.</p>
+    </div>
+</body>
+</html>
+
+#libaboutpage.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="{{url_for('static',filename='css/style.css')}}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<style>
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+</style>
+</head>
+<body class="bg-nav">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <div class="bg-nav text-light d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+        <h5 class="my-0 mr-md-auto font-weight-normal">BESANT LIBRARY</h5>
+        <nav class="my-2 my-md-0 mr-md-3 ">
+            <a class="p-2 text-light" href="/lihome">HOME</a>
+            <a class="p-2 text-light" href="liabout">ABOUT</a>
+            <a class="p-2 text-light" href="/lilib">LIBRARYPAGE</a>
+        </nav>
+    <a class="btn btn-outline-primary text-light" href="/">LOGOUT</a>
+    </div>
+    <div class="about-section">
+         <h1>About Us Page</h1>
+         <p>Some text about who we are and what we do.</p>
+        <p>Resize the browser window to see that this page is responsive by the way.</p>
+    </div>
+
+
+</body>
+</html>
+
+#libhomepage.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head><style>
+
+/* Slideshow container */
+.slideshow-container {
+
+  position: relative;
+  margin-left:100px;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="{{url_for('static',filename='css/style.css')}}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body class="bg-nav">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <div class="bg-nav text-light d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+        <h5 class="my-0 mr-md-auto font-weight-normal">BESANT LIBRARY</h5>
+        <nav class="my-2 my-md-0 mr-md-3 ">
+            <a class="p-2 text-light" href="/lihome">HOME</a>
+            <a class="p-2 text-light" href="/liabout">ABOUT</a>
+            <a class="p-2 text-light" href="/lilib">LIBRARYPAGE</a>
+        </nav>
+    <a class="btn btn-outline-primary text-light" href="/">LOGOUT</a>
+    </div>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="static/book1.jpg" style="width:1100px" height="350px">
+</div>
+
+<div class="mySlides fade">
+  <img src="static/book2.jpg" style="width:1100px" height="350px">
+</div>
+
+<div class="mySlides fade">
+  <img src="static/book3.jpg" style="width:1100px" height="350px">
+</div>
+
+<div class="mySlides fade">
+  <img src="static/book4.jpg" style="width:1100px" height="350px">
+</div>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</td>
+</tr>
+
+</table>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+</body>
+</html>
+
+</html>
+
+#librarypage.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="{{url_for('static',filename='css/style.css')}}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body class="bg-nav">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <div class="bg-nav text-light d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+        <h5 class="my-0 mr-md-auto font-weight-normal">BESANT LIBRARY</h5>
+        <nav class="my-2 my-md-0 mr-md-3 ">
+            <a class="p-2 text-light" href="/lihome">HOME</a>
+            <a class="p-2 text-light" href="/liabout">ABOUT</a>
+            <a class="p-2 text-light" href="/lilib">LIBRARYPAGE</a>
+        </nav>
+    <a class="btn btn-outline-primary text-light" href="/">LOGOUT</a>
+    </div>
+<section class="container">
+    <div class="card1">
+        <div class="card-image car-1">
+            <img class="c1" src="{{url_for('static',filename='cimage.png')}}">
+            <h2>C</h2>
+            <p>This is C book and C reference vidoes</p>
+            <a href="/book1">click</a>
+        </div>
+    </div>
+    <div class="card2">
+        <div class="card-image car-2">
+            <img class="c2" src="{{url_for('static',filename='c++image.png')}}">
+            <h2>C++</h2>
+            <p>This is C++ book and C++ reference vidoes</p>
+            <a href="/book2">click</a>
+        </div>
+    </div>
+    <div class="card3">
+        <div class="card-image car-3">
+            <img class="c3" src="{{url_for('static',filename='javaimage.png')}}">
+            <h2>JAVA</h2>
+            <p>This is JAVA book and JAVA reference vidoes</p>
+            <a href="/book3">click</a>
+        </div>
+    </div>
+</section>
+</body>
+</html>
+
+#logins.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="{{url_for('static',filename='css/style.css')}}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<style>
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+</style>
+
+</head>
+<body class="bg-nav">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <div class="bg-nav text-light d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+        <h5 class="my-0 mr-md-auto font-weight-normal">BESANT LIBRARY</h5>
+        <nav class="my-2 my-md-0 mr-md-3 ">
+            <a class="p-2 text-light" href="/stulogins">STUDENTLOGIN</a>
+            <a class="p-2 text-light" href="/tealogins">TEACHERLOGIN</a></nav>
+
+    </div>
+    <div class="about-section">
+        <h1>About Us Page</h1>
+        <p>Some text about who we are and what we do.</p>
+        <p>Resize the browser window to see that this page is responsive by the way.</p>
+    </div>
+</body>
+</html>
+
+#messages.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{{msg}}
+</body>
+</html>
+
+#registers.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="{{url_for('static',filename='css/style.css')}}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<style>
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+</style>
+
+</head>
+<body class="bg-nav">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <div class="bg-nav text-light d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+        <h5 class="my-0 mr-md-auto font-weight-normal">BESANT LIBRARY</h5>
+        <nav class="my-2 my-md-0 mr-md-3 ">
+            <a class="p-2 text-light" href="/stusigns">STUDENTREGISTER</a>
+            <a class="p-2 text-light" href="/teasigns">TEACHERREGISTER</a></nav>
+
+    </div>
+    <div class="about-section">
+        <h1>About Us Page</h1>
+        <p>Some text about who we are and what we do.</p>
+        <p>Resize the browser window to see that this page is responsive by the way.</p>
+    </div>
+</body>
+</html>
+
+#stulogins.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="{{url_for('static',filename='css/style.css')}}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Title</title>
+</head>
+<body>
+{{message}}
+<h3 class="text-light display-4 mt-100" style="font-size:40px">STUDENT LOGIN FORM</h3>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<div class="containerss">
+    <div class="row">
+        <div class="col-md-8">
+        </div>
+        <div class="col-md-4">
+            <div class="card mt-100">
+                <div class="card-body">
+                    <form method="post">
+                        <label>USERNAME</label><br><br>
+                        <input type="text" class="form-control" name="email" placeholder="ENTER YOUR USERNAME"><br><br>
+                        <label>PASSWORD</label><br><br>
+                        <input type ="password" class="form-control" name="passwords" placeholder="ENTER YOUR PASSWORD"><br><br>
+                        <input type="submit" class="btn btn-primary btn-block btn-lg" name="submit" value="LOGIN"><br><br>
+                        <p>Not a member?<a href="/stusigns">create an account</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+
+#stusigns.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="{{url_for('static',filename='css/style.css')}}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Title</title>
+</head>
+<body>
+<h3>STUDENT SIGN UP FORM</h3>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<div class="containers">
+    <div class="row">
+        <div class="col-md-8">
+            <h2 class="text-light display-4 mt-100" style="font-size:40px">WELCOME TO OUR RESTRATION PAGE</h2>
+        </div>
+        <div class="col-md-4">
+            <div class="card mt-100">
+                <div class="card-body">
+                    <form action="/studentdb" method="post">
+                        <label>FIRSTNAME</label><br><br>
+                        <input type="text" name="fname" placeholder="ENTER YOUR FIRSTNAME"><br><br>
+                        <label>LASTNAME</label><br><br>
+                        <input type="text" name="lname" placeholder="ENTER YOUR LASTNAME"><br><br>
+                        <label>GENDER</label><br><br>
+                        <input type="radio" name="gender" value="male">MALE
+                        <input type="radio" name="gender" value="female">FEMALE<br><br>
+                        <label>EMAIL</label><br><br>
+                        <input type="email" name="email" placeholder="ENTER YOUR EMAIL"><br><br>
+                        <label>DEPARTMENT</label><br><br>
+                        <select name="department">
+                            <option>SELECT YOUR DEPARTMENT</option>
+                            <option>B.SC.CS</option>
+                            <option>B.SC.IT</option>
+                            <option>B.COM</option>
+                            <option>B.SC.ANIMATION</option>
+                            <option>B.SC.NETWORKING</option>
+                        </select><br><br>
+                        <label>PASSWORD</label><br><br>
+                        <input type="password" name="passwords" placeholder="ENTER YOUR PASSWORD"><br><br>
+                        <input type="submit" name="submit" value="REGISTER">
+                    </form>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
+
+#teacherslogin.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="{{url_for('static',filename='css/style.css')}}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Title</title>
+</head>
+<body>
+{{message}}
+<h3 class="text-light display-4 mt-100" style="font-size:40px">TEACHER LOGIN FORM</h3>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<div class="containerss">
+    <div class="row">
+        <div class="col-md-8">
+        </div>
+        <div class="col-md-4">
+            <div class="card mt-100">
+                <div class="card-body">
+                    <form method="post">
+                        <label>USERNAME</label><br><br>
+                        <input type="text" class="form-control" name="email" placeholder="ENTER YOUR USERNAME"><br><br>
+                        <label>PASSWORD</label><br><br>
+                        <input type ="password" class="form-control" name="passwords" placeholder="ENTER YOUR PASSWORD"><br><br>
+                        <input type="submit" class="btn btn-primary btn-block btn-lg" name="submit" value="LOGIN"><br><br>
+                        <p>Not a member?<a href="/stusigns">create an account</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+
+#teacherssign.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="{{url_for('static',filename='css/style.css')}}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Title</title>
+</head>
+<body>
+<h3>STUDENT SIGN UP FORM</h3>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<div class="containers">
+    <div class="row">
+        <div class="col-md-8">
+            <h2 class="text-light display-4 mt-100" style="font-size:40px">WELCOME TO OUR RESTRATION PAGE</h2>
+        </div>
+        <div class="col-md-4">
+            <div class="card mt-100">
+                <div class="card-body">
+                    <form action="/teacherdb" method="post">
+                        <label>FIRSTNAME</label><br><br>
+                        <input type="text" name="fname" placeholder="ENTER YOUR FIRSTNAME"><br><br>
+                        <label>LASTNAME</label><br><br>
+                        <input type="text" name="lname" placeholder="ENTER YOUR LASTNAME"><br><br>
+                        <label>GENDER</label><br><br>
+                        <input type="radio" name="gender" value="male">MALE
+                        <input type="radio" name="gender" value="female">FEMALE<br><br>
+                        <label>EMAIL</label><br><br>
+                        <input type="email" name="email" placeholder="ENTER YOUR EMAIL"><br><br>
+                        <label>DEPARTMENT</label><br><br>
+                        <select name="department">
+                            <option>SELECT YOUR DEPARTMENT</option>
+                            <option>B.SC.CS</option>
+                            <option>B.SC.IT</option>
+                            <option>B.COM</option>
+                            <option>B.SC.ANIMATION</option>
+                            <option>B.SC.NETWORKING</option>
+                        </select><br><br>
+                        <label>PASSWORD</label><br><br>
+                        <input type="password" name="passwords" placeholder="ENTER YOUR PASSWORD"><br><br>
+                        <input type="submit" name="submit" value="REGISTER">
+                    </form>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
+
+
+#viewstudentsrecord.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>Student record</h3>
+<table border="5">
+    <thead>
+        <td>firstname</td>
+        <td>lastname</td>
+        <td>gender</td>
+        <td>email</td>
+        <td>department</td>
+    </thead>
+    {% for student in rows %}
+    <tr>
+        <td>{{student[0]}}</td>
+        <td>{{student[1]}}</td>
+        <td>{{student[2]}}</td>
+        <td>{{student[3]}}</td>
+        <td>{{student[4]}}</td>
+    </tr>
+    {% endfor %}
+</table>
+<a href="/admin">click here to admin page</a>
+</body>
+</html>
+
+
+
