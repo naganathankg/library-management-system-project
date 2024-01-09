@@ -1,0 +1,365 @@
+#style.css
+
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body {
+	background: #536976;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #292E49, #536976);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #292E49, #536976); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.container{
+	display:flex;
+	justify-content:center;
+	flex-wrap:nowrap;
+	margin-top:100px;
+}
+.card1{
+	background: #FEC868;
+	width :270px;
+	height :400px;
+	margin: 10px;
+	border-radius:15px;
+}
+.card2{
+	background: #FEC868;
+	width :270px;
+	height :400px;
+	margin: 10px;
+	border-radius:15px;
+}
+.card3{
+	background: #FEC868;
+	width :270px;
+	height :400px;
+	margin: 10px;
+	border-radius:15px;
+}
+.card-image{
+	height : 150px;
+	margin-bottom : 15px;
+	background-size:cover;
+	background-radius: 15px 15px 0 0;
+}
+.card1 h2{
+    padding:10px;
+    margin-left:30%;
+}
+.card2 h2{
+    padding:10px;
+    margin-left:30%;
+}
+.card3 h2{
+    padding:10px;
+    margin-left:30%;
+}
+.card1 p{
+    padding:10px;
+}
+.card2 p{
+    padding:10px;
+}
+.card3 p{
+    padding:10px;
+}
+.card1 a{
+    background-color:#C69749;
+    color:#03001C;
+    padding:10px 20px;
+    display:block;
+    text-align:center;
+    margin:20px 50px;
+    margin-top:70px;
+    text-decoration:none;
+}
+.card2 a{
+    background-color:#C69749;
+    color:#03001C;
+    padding:10px 20px;
+    display:block;
+    text-align:center;
+    margin:20px 50px;
+    margin-top:70px;
+    text-decoration:none;
+}
+.card3 a{
+    background-color:#C69749;
+    color:#03001C;
+    padding:10px 20px;
+    display:block;
+    text-align:center;
+    margin:20px 50px;
+    margin-top:70px;
+    text-decoration:none;
+}
+.card1:hover{
+    background-color:#C9EEFF;
+    color:red;
+    cursor:pointer;
+    transform:scale(1.03);
+    transition:all 1s ease;
+}
+.card2:hover{
+    background-color:#C9EEFF;
+    color:red;
+    cursor:pointer;
+    transform:scale(1.03);
+    transition:all 1s ease;
+}
+.card3:hover{
+    background-color:#C9EEFF;
+    color:red;
+    cursor:pointer;
+    transform:scale(1.03);
+    transition:all 1s ease;
+}
+.c1{
+    width:270px;
+    height:100px;
+}
+.c2{
+    width:270px;
+    height:100px;
+}
+.c3{
+    width:270px;
+    height:100px;
+}
+.bg-nav{
+    background: #3E5151;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DECBA4, #3E5151); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.mt-100{
+    margin-top:50px;
+    text-align:center;
+
+}
+.containers{
+    width:100%;
+    overflow:hidden;
+    background:skyblue;
+    margin:20px auto;
+    padding:50px;
+}
+.containers ul{
+    padding:0px;
+    margin:0px;
+}
+.containers ul li{
+    list-style:none;
+    float:left;
+
+}
+.card1 input{
+    background-color:#C69749;
+    color:#03001C;
+    padding:10px 50px;
+    display:block;
+    text-align:center;
+    margin:20px 60px;
+    margin-top:10px;
+    text-decoration:none;
+}
+.card2 input{
+    background-color:#C69749;
+    color:#03001C;
+    padding:10px 50px;
+    display:block;
+    text-align:center;
+    margin:20px 60px;
+    margin-top:10px;
+    text-decoration:none;
+}
+.card3 input{
+    background-color:#C69749;
+    color:#03001C;
+    padding:10px 50px;
+    display:block;
+    text-align:center;
+    margin:20px 60px;
+    margin-top:10px;
+    text-decoration:none;
+}
+.card11 input{
+    background-color:#C69749;
+    color:#03001C;
+    padding:10px 20px;
+    display:block;
+    text-align:center;
+    margin-left:90px;
+    margin-top:10px;
+    text-decoration:none;
+}
+.card12 input{
+    background-color:#C69749;
+    color:#03001C;
+    padding:10px 20px;
+    display:block;
+    text-align:center;
+    margin-left:90px;
+    margin-top:10px;
+    text-decoration:none;
+}
+.card13 input{
+    background-color:#C69749;
+    color:#03001C;
+    padding:10px 20px;
+    display:block;
+    text-align:center;
+    margin-left:90px;
+    margin-top:10px;
+    text-decoration:none;
+}
+.p1{
+    padding:0px;
+    text-align:center;
+}
+.h{
+    padding:10px;
+    margin-left:5%;
+
+}
+.card11{
+	background: #FEC868;
+	width :270px;
+	height :450px;
+	margin: 10px;
+	border-radius:15px;
+}
+.card12{
+	background: #FEC868;
+	width :270px;
+	height :450px;
+	margin: 10px;
+	border-radius:15px;
+}
+.card13{
+	background: #FEC868;
+	width :270px;
+	height :450px;
+	margin: 10px;
+	border-radius:15px;
+}
+.card11:hover{
+    background-color:#C9EEFF;
+    color:red;
+    cursor:pointer;
+    transform:scale(1.03);
+    transition:all 1s ease;
+}
+.card12:hover{
+    background-color:#C9EEFF;
+    color:red;
+    cursor:pointer;
+    transform:scale(1.03);
+    transition:all 1s ease;
+}
+.card13:hover{
+    background-color:#C9EEFF;
+    color:red;
+    cursor:pointer;
+    transform:scale(1.03);
+    transition:all 1s ease;
+}
+.c11{
+    width:270px;
+    height:100px;
+}
+.c12{
+    width:270px;
+    height:100px;
+}
+.c13{
+    width:270px;
+    height:100px;
+}
+.containerss{
+    color: red;
+	width :800px;
+	height :100px;
+	margin-right: 700px;
+	border-radius:25px;
+
+}
+.card-body{
+    background-color:#FEC868;
+}
+.card14{
+	background: #FEC868;
+	width :270px;
+	height :450px;
+	margin-right: 1000px;
+	border-radius:15px;
+	margin-top:500px;
+}
+.c14{
+    width:370px;
+    height:100px;
+    }
+.card15{
+	background: #FEC868;
+	width :270px;
+	height :450px;
+	margin-right: 500px;
+	border-radius:15px;
+	margin-top:500px;
+}
+.c15{
+    width:370px;
+    height:100px;
+    }
+
+.card16{
+	background: #FEC868;
+	width :270px;
+	height :450px;
+	margin-right: 500px;
+	border-radius:15px;
+	margin-top:500px;
+}
+.c16{
+    width:370px;
+    height:100px;
+    }
+
+
+
+#styles.css
+
+.container{
+    width:100%;
+    overflow:hidden;
+    background:skyblue;
+    margin:20px auto;
+    padding:50px;
+}
+.container ul{
+    padding:0px;
+    margin:0px;
+}
+.container ul li{
+    list-style:none;
+    float:left;
+    width:20%;
+    height:300px;
+    background:red;
+    margin:40px 40px 0px 55px;
+
+}
+.container ul li .card{
+	width :100%;
+	height :50px;
+	line-height:50px;
+	background:white;
+	text-align:center;
+}
+.container ul li .card .card-image{
+	height : 150px;
+	margin-bottom : 15px;
+	background-size:cover;
+	background-radius: 15px 15px 0 0;
+}
